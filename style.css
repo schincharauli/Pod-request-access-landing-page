@@ -1,287 +1,269 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100;400&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;  
-    background: linear-gradient(to right, #121926, #121926);
-    display: flex;
-    flex-direction: column;
-    font-family: 'Chivo', sans-serif;
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #121926, #121926);
+  display: flex;
+  flex-direction: column;
+  font-family: "Chivo", sans-serif;
 }
 
-.images{
-    opacity: 0.1;
+.images {
+  opacity: 0.1;
 }
 
-.logo{
-    margin-top: -600px;
-    margin-left: 120px;
+.logo {
+  margin-top: -600px;
+  margin-left: 120px;
 }
 
-.container{
-    margin-left: 10px;
+.container {
+  margin-left: 10px;
 }
 
-.titles{
-    text-align: center;
+.titles {
+  text-align: center;
 }
 
-.titles h2{
-    font-weight: 100;
-    font-size: 27px;
-    line-height: 38px;
-    color: #54E6AF;
-    margin-top: 57px;
+.titles h2 {
+  font-weight: 100;
+  font-size: 27px;
+  line-height: 38px;
+  color: #54e6af;
+  margin-top: 57px;
 }
 
-.titles h3{
-    font-weight: 100;
-    font-size: 27px;
-    line-height: 38px;
-    color: #FFFFFF;
+.titles h3 {
+  font-weight: 100;
+  font-size: 27px;
+  line-height: 38px;
+  color: #ffffff;
 }
 
-.paragraph{
-    font-weight: 100;
-    font-size: 15px;
-    line-height: 25px;
-    color: #C2CBE5;
-    padding: 18px;
-    text-align: center;
+.paragraph {
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 25px;
+  color: #c2cbe5;
+  padding: 18px;
+  text-align: center;
 }
 
-.icons-sec{
-    margin-top: 40px;
-    display: flex;
-    max-width: 90%;
-    justify-content: space-around;
-    margin-left: 15px;
-
+.icons-sec {
+  margin-top: 40px;
+  display: flex;
+  max-width: 90%;
+  justify-content: space-around;
+  margin-left: 15px;
 }
-.icons-sec img{
-    height: 17px;
-    width: 55px;
-}
-
-.input-sec{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.icons-sec img {
+  height: 17px;
+  width: 55px;
 }
 
-.email{
-    width: 327px;
-    height: 46px;
-    background-color: #2C344B;
-    border: none;
-    border-radius: 28px;
-    margin-top: 55px;
-    text-align: start;
-    color: #C2CBE5;
+.input-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-::placeholder{
-    color:#C2CBE5;
-    margin-left: 32px;
-    font-weight: 700;
+.email {
+  width: 327px;
+  height: 46px;
+  background-color: #2c344b;
+  border: none;
+  border-radius: 28px;
+  margin-top: 55px;
+  text-align: start;
+  color: #c2cbe5;
 }
 
-.acces{
-    width: 327px;
-    height: 46px;
-    background-color: #54E6AF;
-    border: none;
-    border-radius: 28px;
-    text-align: start;
-    color: #C2CBE5;
-    text-align: center;
-    font-size: medium;
-    font-weight: 700;
-    margin-top: 16px;
+::placeholder {
+  color: #c2cbe5;
+  margin-left: 32px;
+  font-weight: 700;
 }
 
-.acces span{
-    color: #121725;
-
+.acces {
+  width: 327px;
+  height: 46px;
+  background-color: #54e6af;
+  border: none;
+  border-radius: 28px;
+  text-align: start;
+  color: #c2cbe5;
+  text-align: center;
+  font-size: medium;
+  font-weight: 700;
+  margin-top: 16px;
 }
 
-
-.bg-tablet{
-    display: none;
+.acces span {
+  color: #121725;
 }
 
-.bg-desktop{
-    display: none;
+.bg-tablet {
+  display: none;
 }
 
-.bg-patern-dots{
-    display: none;
+.bg-desktop {
+  display: none;
 }
 
-
+.bg-patern-dots {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
-    body{
-        width: 100vw;
-        height: 100vh;  
-        /* display: flex; */
-        flex-direction: column;
-        font-family: 'Chivo', sans-serif;
-    }
-
-    .images{
-        opacity: 1;
-        display: flex;
-        justify-content: end;
-    }
-
-    .bg-tablet{
-        display: block;
-
-        
-    }
-    .img-mobile{
-        display: none;
-    }
-
-    .logo{
-        margin-top: -720px;
-        margin-left: 50px;
-    }
-
-    .container{
-        height: 509px;
-        width: 635px;
-        background-color: #121926;
-        margin-top: 160px;
-        margin-left: 39px;
-    }
-    
-    .titles h2{
-        font-size: 48px;
-        margin-left: 0;
-        margin-top: 93px;
-        display: flex;
-        justify-content: flex-start;
-    }
-    .titles h3{
-        font-size: 48px;
-        display: flex;
-        justify-content: flex-start;
-        margin-top: 15px;
-    }
-
-    .paragraph{
-        display: flex;
-        justify-content: flex-start;
-        text-align: start;
-        padding: 0;
-        margin-top: 30px;
-        width: 58%;
-    }
-
-
-    .section-two-for-tablet{
-        display: flex;
-        flex-direction: column-reverse;
-
-    }
-
-    .input-sec{
-        display: flex;
-        display: flex;
-        justify-content: flex-start;
-
-    }
-
-    .email{
-        height: 60px;
-        width: 427px;
-        margin-right: 191px;
-    }
-
-    .acces{
-        width: 162px;
-        margin-top: -54px;
-        margin-left: 55px;
-    }
-
-    .icons-sec{
-        margin-top: 80px;
-        margin-left: 0px;
-
-    }
-
-    .icons-sec img{
-        width: auto;
-        height: auto;
-
-    }
-
-    .bg-patern-dots{
-        display: block;
-        margin-left: 56px;
-        margin-top: 240px;
-    }
+  body {
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+    flex-direction: column;
+    font-family: "Chivo", sans-serif;
   }
 
-
-  @media screen and (min-width: 1140px) {
-    
-    .bg-tablet{
-        display: none;  
-    }
-    .img-mobile{
-        display: none;
-    }
-    .bg-desktop{
-        display: block;
-        margin-top: 130px;
-    }
-
-
-    .logo{
-        margin-top: -670px;
-        margin-left: 170px;
-    }
-
-
-    .container{
-        height: 509px;
-        width: 723px;
-        margin-left: 170px;
-        margin-top: 106px;
-
-    }
-
-    .email{
-        margin-right: 305px;
-    }
-
-    .acces{
-        margin-left: -50px;
-    }
-
-    .icons-sec{
-        margin-left: -30px;
-    }
-
-    .bg-patern-dots{
-        display: flex;
-        justify-content: flex-end;
-        margin-top: -56px;
-    }
-
-    .acces:hover{
-        cursor: pointer;
-        background-color: #B3FFE2;
-    }
-
+  .images {
+    opacity: 1;
+    display: flex;
+    justify-content: end;
   }
+
+  .bg-tablet {
+    display: block;
+  }
+  .img-mobile {
+    display: none;
+  }
+
+  .logo {
+    margin-top: -720px;
+    margin-left: 50px;
+  }
+
+  .container {
+    height: 509px;
+    width: 635px;
+    background-color: #121926;
+    margin-top: 160px;
+    margin-left: 39px;
+  }
+
+  .titles h2 {
+    font-size: 48px;
+    margin-left: 0;
+    margin-top: 93px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .titles h3 {
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+  }
+
+  .paragraph {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    padding: 0;
+    margin-top: 30px;
+    width: 58%;
+  }
+
+  .section-two-for-tablet {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .input-sec {
+    display: flex;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .email {
+    height: 60px;
+    width: 427px;
+    margin-right: 191px;
+  }
+
+  .acces {
+    width: 162px;
+    margin-top: -54px;
+    margin-left: 55px;
+  }
+
+  .icons-sec {
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+
+  .icons-sec img {
+    width: auto;
+    height: auto;
+  }
+
+  .bg-patern-dots {
+    display: block;
+    margin-left: 56px;
+    margin-top: 240px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .bg-tablet {
+    display: none;
+  }
+  .img-mobile {
+    display: none;
+  }
+  .bg-desktop {
+    display: block;
+    margin-top: 130px;
+  }
+
+  .logo {
+    margin-top: -670px;
+    margin-left: 170px;
+  }
+
+  .container {
+    height: 509px;
+    width: 723px;
+    margin-left: 170px;
+    margin-top: 106px;
+  }
+
+  .email {
+    margin-right: 305px;
+  }
+
+  .acces {
+    margin-left: -50px;
+  }
+
+  .icons-sec {
+    margin-left: -30px;
+  }
+
+  .bg-patern-dots {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -56px;
+  }
+
+  .acces:hover {
+    cursor: pointer;
+    background-color: #b3ffe2;
+  }
+}
