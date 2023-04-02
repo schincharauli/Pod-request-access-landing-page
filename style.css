@@ -88,7 +88,7 @@ body {
 
 ::placeholder {
   color: #c2cbe5;
-  margin-left: 32px;
+  padding-left: 20px;
   font-weight: 700;
 }
 
@@ -104,11 +104,10 @@ body {
   font-size: medium;
   font-weight: 700;
   margin-top: 16px;
-}
-
-.acces span {
   color: #121725;
 }
+
+
 
 .bg-tablet {
   display: none;
@@ -122,11 +121,14 @@ body {
   display: none;
 }
 
+.error{
+  color: red;
+}
+
 @media screen and (min-width: 768px) {
   body {
     width: 100vw;
     height: 100vh;
-    /* display: flex; */
     flex-direction: column;
     font-family: "Chivo", sans-serif;
   }
@@ -218,6 +220,14 @@ body {
     margin-left: 56px;
     margin-top: 240px;
   }
+
+  
+  .error{
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 200px;
+  }
+
 }
 
 @media screen and (min-width: 1140px) {
@@ -265,5 +275,11 @@ body {
   .acces:hover {
     cursor: pointer;
     background-color: #b3ffe2;
+  }
+
+  .error{
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 350px;
   }
 }
