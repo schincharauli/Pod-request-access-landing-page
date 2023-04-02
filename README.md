@@ -35,7 +35,7 @@ Users should be able to:
 
 - Solution URL: https://github.com/schincharauli/Pod-request-access-landing-page
 
-- Live Site URL: https://remarkable-squirrel-78d279.netlify.app/
+- Live Site URL: https://leafy-ganache-42cd7a.netlify.app/
 
 ## My process
 
